@@ -1,24 +1,15 @@
+# Sistema de Banco de Dados para Escritório
 
-# **Descrição do Desafio**
+Este projeto visa a criação de um banco de dados relacional para um escritório, com foco na gestão de funcionários, departamentos, projetos e tarefas. O projeto envolve a criação de um esquema conceitual utilizando o modelo ER, que foi transformado em um esquema lógico e implementado por meio de SQL.
 
-Para este cenário você irá utilizar seu esquema conceitual, criado no desafio do módulo de modelagem de BD com modelo ER, para criar o esquema lógico para o contexto de uma oficina. Neste desafio, você definirá todas as etapas. Desde o esquema até a implementação do banco de dados. Sendo assim, neste projeto você será o protagonista. Tenha os mesmos cuidados, apontados no desafio anterior, ao modelar o esquema utilizando o modelo relacional.
+## Etapas do Projeto
 
-Após a criação do esquema lógico, realize a criação do Script SQL para criação do esquema do banco de dados. Posteriormente, realize a persistência de dados para realização de testes. Especifique ainda queries mais complexas do que apresentadas durante a explicação do desafio. Sendo assim, crie queries SQL com as cláusulas abaixo:
+1. **Esquema Conceitual**: Criação do diagrama ER para representar as entidades e relacionamentos.
+2. **Esquema Lógico**: Transformação do modelo ER em um esquema lógico.
+3. **Implementação**: Criação do banco de dados usando comandos SQL.
+4. **Testes**: Inserção de dados de exemplo e realização de consultas complexas.
 
-- Recuperações simples com SELECT Statement;
-- Filtros com WHERE Statement;
-- Crie expressões para gerar atributos derivados;
-- Defina ordenações dos dados com ORDER BY;
-- Condições de filtros aos grupos – HAVING Statement;
-- Crie junções entre tabelas para fornecer uma perspectiva mais complexa dos dados;
+## Tecnologias Utilizadas
 
-## **Diretrizes**
-
-- Não há um mínimo de queries a serem realizadas;
-- Os tópicos supracitados devem estar presentes nas queries;
-- Elabore perguntas que podem ser respondidas pelas consultas
-- As cláusulas podem estar presentes em mais de uma query
-
-O projeto deverá ser adicionado a um repositório do Github para futura avaliação do desafio de projeto. Adicione ao Readme a descrição do projeto lógico para fornecer o contexto sobre seu esquema lógico apresentado.
-
-</b>
+- **MySQL / PostgreSQL**: Sistemas de gerenciamento de banco de dados.
+- **SQL**: Linguagem de consulta utilizada para a implementação.
